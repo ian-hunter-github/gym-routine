@@ -21,7 +21,7 @@ interface Props {
 export default function WeightLiftingActivityView({ activity }: Props) {
   return (
     <Grid container>
-      <Item>NAME: {activity?.name}</Item>
+      <Item>NAMEX: {activity?.name}</Item>
       <Grid container >
         {activity?.sets.map((set) => {
           return (<Item><WeightLiftingSetView set={set} /></Item>);
