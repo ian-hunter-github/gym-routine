@@ -10,7 +10,7 @@ import { userData } from './WorkoutData';
 import ActiveSession from './components/ActiveSession'
 
 const HeaderItem = styled(Box)(({ theme }) => ({
-  backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#fff",
+  backgroundColor: theme.palette.mode === "dark" ? "#1A2028" : "#fff",
   ...theme.typography.h3,
   padding: theme.spacing(1),
   textAlign: "left",
